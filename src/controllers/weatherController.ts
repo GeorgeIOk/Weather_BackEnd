@@ -36,13 +36,13 @@ export const getWeatherData = async (req: Request, res: Response) => {
     if (city === "London") {
       console.log(generateLondonWeatherData());
       finalWeatherData = generateLondonWeatherData();
-    } else if (city === "dublin") {
+    } else if (city === "Dublin") {
       console.log(generateDublinWeatherData());
       finalWeatherData = generateDublinWeatherData();
-    } else if (city === "tokyo") {
+    } else if (city === "Tokyo") {
       console.log(generateTokyoWeatherData());
       finalWeatherData = generateTokyoWeatherData();
-    } else if (city === "seoul") {
+    } else if (city === "Seoul") {
       console.log(generateSeoulWeatherData());
       finalWeatherData = generateSeoulWeatherData();
     } else {
